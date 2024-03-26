@@ -1,0 +1,21 @@
+.a90{
+    border:1px solid white;
+    height:3rem;
+    width:103.8vw;
+    background-color: aliceblue;
+    color:blueviolet;
+    margin-left:-3rem; 
+    margin-top: -2rem;
+    font-size: 1.5rem;
+
+}
+@media(min-width:578px) and (max-width:900px){
+    .a90{
+      width:46rem;
+      height:1rem;
+      font-size:0.5rem;
+      margin-top: 0.2rem;
+      margin-left: -3rem;
+   } 
+}
+  

@@ -1,0 +1,89 @@
+.main{
+    /* background-color:azure; */
+    background-color: rgb(250, 250, 250);
+    /* position: fixed;
+    bottom:0; */
+    width:100vw;
+    /* width:10rem; */
+    margin-top:5rem;
+    margin-left:2rem;
+}
+/* h6,p{
+     color:azure;
+} */
+@media(min-width:372px) and (max-width:591px){
+    .main{
+        width:41rem;
+    }
+}
+.py2{
+    font-size:0.75rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: x-large;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: start;
+
+}
+.zy2{
+    font-size: x-large;
+    color:rgb(112, 109, 109);
+    margin-top:-0.75rem;
+    /* font-weight: bold; */
+    text-align:start;
+
+}
+.g001{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:-2.5rem;
+}
+.py8{
+    font-size:0.75rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: x-large;
+    /* margin-top: 3rem; */
+    margin-bottom: 2rem;
+    font-weight:bold;
+    margin-left: -4.5rem;
+}
+@media(max-width:900px){
+    .py8{
+        margin-left:-2.5rem;
+    }
+}
+.jio{
+    margin-top:-2rem;
+    
+}
+.lo{
+    padding-left:0;
+    padding-right:0;
+    margin-left:0rem;
+    /* margin-left:2rem; */
+}
+.l505{
+    margin-right: 2rem;
+}
+.g333{
+    margin-top:3rem;
+}
+.inLine{
+    display:inline;
+}
+.z222{
+    color:rgb(117, 118, 118);
+}
+.g888{
+    margin-top: 3rem;
+}
+.g333{
+    margin-top: 2rem;
+}
+.l999{
+    height:3rem;
+    width:3rem;
+}

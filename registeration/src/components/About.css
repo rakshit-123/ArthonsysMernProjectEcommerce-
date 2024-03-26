@@ -1,0 +1,42 @@
+.boxUpper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px; 
+  }
+  
+  .boxInner {
+    width: 50%;
+    height: 50%;
+    border: 1px solid transparent;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth effect */
+  }
+  
+  .boxInner:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+  }
+  
+  .about-container {
+    display: flex;
+  }
+  
+  .about-ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-ul li {
+    margin-bottom: 8px;
+  }
+  
+  .about-label {
+    font-weight: bold;
+  }
+  
